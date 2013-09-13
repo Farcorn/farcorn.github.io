@@ -1,0 +1,111 @@
+.show
+{
+	border-left: 1px solid #d8d8d8;
+	
+}
+
+div.aboutme
+{
+	border-left: 3px;
+
+}
+
+  .mymargin
+  {
+  	padding-top: 0px;
+  }
+ul.blocksxs li
+
+{
+	display: inline-block;
+	margin-right: 10px;
+	font-size: 24px;
+	text-align: center;
+
+}
+
+ul.blocksxs
+{
+	text-align: center;
+}
+ul.blockssm li
+
+{
+	display: inline-block;
+	margin-right: 10px;
+	font-size: 18px;
+	text-align: center;
+
+
+}
+
+
+/* Xtra Small */
+@media (max-width: 767px) {
+	.xs-text-centered {
+		text-align: center;
+	}
+	.sm-text-centered {
+		text-align: center;
+	}
+}
+
+/* Small */
+@media (min-width: 768px) and (max-width: 991px) {
+	.sm-dl-compact dt {
+		width: 30px;
+	}
+	.sm-dl-compact dd {
+		margin-left: 50px;
+	}
+	.sm-text-centered {
+		text-align: center;
+	}
+}
+
+/* Medium */
+@media (min-width: 992px) and (max-width: 1199px) {
+	.sm-dl-compact dt {
+		width: 50px;
+	} 
+	.sm-dl-compact dd {
+		margin-left: 70px;
+	}
+}
+
+/* Large */
+@media (min-width: 1200px) {
+	.sm-dl-compact dt {
+		width: 50px;
+	} 
+	.sm-dl-compact dd {
+		margin-left: 70px;
+	}
+}
+
+.centered {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.jamboborder
+{
+	border-image: url('/photos.knust.jpg')
+}
+
+.nobullets
+{
+list-style-type: none;
+
+}
+
+.jbackground
+{
+	background-image: url('./photos/knust.jpg');
+	background-repeat: none;
+}
+
+.md-text-centered
+{
+	text-align: center;
+}
