@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <script language="javascript" type="text/javascript">
+  function resizeIframe(obj) {
+    obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+  }
+</script>
   <title>Home|Farcorn</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Bootstrap -->
@@ -14,7 +19,7 @@
       <![endif]-->
     </head>
     <body>
-    	<iframe src="http://farcorn.me"  scrolling="no"></iframe>
+    <iframe name="Stack" src="http:/farcorn.me" frameborder="0" scrolling="no" id="iframe" onload='javascript:resizeIframe(this);' />
 
       <!-- <div class="container">
         <div class="row">
